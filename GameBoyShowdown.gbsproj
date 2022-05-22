@@ -1634,8 +1634,8 @@
                         {
                             "command": "EVENT_WAIT",
                             "args": {
-                                "time": 4,
-                                "__collapse": true
+                                "time": 5,
+                                "__collapse": false
                             },
                             "id": "f53a39ca-3b64-4d14-85a1-875bd6be29e3"
                         }
@@ -4697,10 +4697,22 @@
         {
             "id": "fade_style",
             "value": 0
+        },
+        {
+            "id": "plat_run_vel",
+            "value": 6400
+        },
+        {
+            "id": "plat_walk_acc",
+            "value": 300
+        },
+        {
+            "id": "plat_run_acc",
+            "value": 300
         }
     ],
     "settings": {
-        "startSceneId": "c1335428-c5d6-48ca-89fa-e5916d99bc8b",
+        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
         "startX": 1,
         "startY": 3,
         "startMoveSpeed": 1,
@@ -4708,7 +4720,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1122,
+        "worldScrollX": 101,
         "worldScrollY": 0,
         "zoom": 190.1041717529297,
         "customColorsEnabled": false,
