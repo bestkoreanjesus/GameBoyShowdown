@@ -539,6 +539,13 @@
                                 "id": "2523b64b-7992-4621-a035-c351d559d02a"
                             },
                             {
+                                "command": "EVENT_INC_VALUE",
+                                "args": {
+                                    "variable": "3"
+                                },
+                                "id": "a49625d5-b3cb-4aa0-adde-c710ab52fa48"
+                            },
+                            {
                                 "command": "EVENT_ACTOR_GET_POSITION",
                                 "args": {
                                     "actorId": "$self$",
@@ -1059,7 +1066,7 @@
                         "customEventId": "28013c3e-743b-43ca-a8d5-c11ff45def09",
                         "$variable[1]$": "1",
                         "$variable[2]$": "2",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "5a36cf76-3782-43cf-a7d3-19d838be1a7f"
                 },
@@ -1092,6 +1099,13 @@
                                     "__collapse": false
                                 },
                                 "id": "1f3b9cdf-f67f-496f-bf5f-2a665d52d810"
+                            },
+                            {
+                                "command": "EVENT_INC_VALUE",
+                                "args": {
+                                    "variable": "3"
+                                },
+                                "id": "a1e90a1a-f5a0-42be-aad4-6629c94f30e2"
                             },
                             {
                                 "command": "EVENT_SWITCH_SCENE",
@@ -2236,7 +2250,7 @@
                     "args": {
                         "variable": "0",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [],
@@ -2394,12 +2408,16 @@
             "name": "PlayerPosY"
         },
         {
+            "id": "2",
+            "name": "PlayerDirection"
+        },
+        {
             "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
             "name": "Local 0"
         },
         {
-            "id": "2",
-            "name": "PlayerDirection"
+            "id": "3",
+            "name": "TeleportCount"
         }
     ],
     "engineFieldValues": [
@@ -2447,9 +2465,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            440,
-            133,
-            133
+            592,
+            178,
+            178
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
