@@ -605,7 +605,7 @@
                                     "y": 0,
                                     "direction": "",
                                     "fadeSpeed": 3,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "75a004cf-60d4-4bd7-aae4-caa32373f6a7"
                             }
@@ -1260,12 +1260,45 @@
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
                     "direction": "down",
-                    "moveSpeed": 1,
+                    "moveSpeed": 2,
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Outch"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "269ca573-c219-47d2-a71c-551509e9c122"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "9f307097-4bee-40c1-8618-dfb776983aa3"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_POSITION",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                    "type": "number",
+                                    "value": 0
+                                },
+                                "y": {
+                                    "type": "number",
+                                    "value": 0
+                                }
+                            },
+                            "id": "61ab8550-ee0a-4a63-95cf-b7a7816ce909"
+                        }
+                    ],
                     "startScript": [
                         {
                             "command": "EVENT_ACTOR_HIDE",
@@ -2650,13 +2683,23 @@
     ],
     "backgrounds": [
         {
+            "id": "f0f997ab-a759-4f20-8820-46b0fca81606",
+            "name": "MAp present",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "MAp present.png"
+        },
+        {
             "id": "4d00d359-f426-4953-a8a1-5f47d696df8c",
             "name": "labyrinth_past",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "labyrinth_past.png"
+            "filename": "labyrinth_past.png",
+            "tileColors": []
         },
         {
             "id": "aaa26e45-534a-4876-8ad6-cf11030ee3d0",
@@ -2665,7 +2708,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "labyrinth_present.png"
+            "filename": "labyrinth_present.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -4005,12 +4049,12 @@
             "name": "TeleportCount"
         },
         {
-            "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
-            "name": "Local 0"
-        },
-        {
             "id": "4",
             "name": "HasTraveled"
+        },
+        {
+            "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
+            "name": "Local 0"
         }
     ],
     "engineFieldValues": [
@@ -4020,7 +4064,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+        "startSceneId": "c1335428-c5d6-48ca-89fa-e5916d99bc8b",
         "startX": 1,
         "startY": 3,
         "startMoveSpeed": 1,
@@ -4058,9 +4102,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            152,
-            132,
-            422
+            204,
+            177,
+            567
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
