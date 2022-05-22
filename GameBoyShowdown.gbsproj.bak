@@ -509,30 +509,29 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_SET_POSITION",
+                    "args": {
+                        "actorId": "$self$",
+                        "x": {
+                            "type": "variable",
+                            "value": "0"
+                        },
+                        "y": {
+                            "type": "variable",
+                            "value": "1"
+                        }
+                    },
+                    "id": "2656b5e2-248d-46d2-8cdc-5aef9fd093bd"
+                },
+                {
                     "command": "EVENT_IF_TRUE",
                     "args": {
-                        "variable": "2",
+                        "variable": "L0",
                         "__collapseElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_ACTOR_SET_POSITION",
-                                "args": {
-                                    "actorId": "$self$",
-                                    "x": {
-                                        "type": "variable",
-                                        "value": "0"
-                                    },
-                                    "y": {
-                                        "type": "variable",
-                                        "value": "1"
-                                    }
-                                },
-                                "id": "2656b5e2-248d-46d2-8cdc-5aef9fd093bd"
-                            }
-                        ],
+                        "true": [],
                         "false": []
                     },
                     "id": "474a2875-4988-4bbe-888e-423d867e6d2b"
@@ -549,14 +548,6 @@
                     },
                     "children": {
                         "true": [
-                            {
-                                "command": "EVENT_SET_TRUE",
-                                "args": {
-                                    "variable": "2",
-                                    "__collapse": true
-                                },
-                                "id": "6c11cd82-6947-41a3-844c-2faba4c81869"
-                            },
                             {
                                 "command": "EVENT_ACTOR_GET_POSITION",
                                 "args": {
