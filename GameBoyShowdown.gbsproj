@@ -1182,45 +1182,18 @@
                         {
                             "command": "EVENT_WAIT",
                             "args": {
-                                "time": 1
+                                "time": 2
                             },
-                            "id": "a29a0658-a6d4-4da7-af16-786940287b2d"
+                            "id": "bccc18dd-fda1-471b-8b8d-f616427356d2"
                         },
                         {
-                            "command": "EVENT_ACTOR_SHOW",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "actorId": "e87fa3db-6026-44c8-aff5-55cf8d02a048"
+                                "customEventId": "3bc65eec-2444-4875-8f9d-b77af8a4bcd3",
+                                "$actor[0]$": "e87fa3db-6026-44c8-aff5-55cf8d02a048",
+                                "$variable[0]$": "T0"
                             },
-                            "id": "55c33dc1-19db-4dc4-81dc-0812aaaeb15d"
-                        },
-                        {
-                            "command": "EVENT_VARIABLE_MATH",
-                            "args": {
-                                "vectorX": "T0",
-                                "operation": "set",
-                                "other": "rnd",
-                                "vectorY": "L0",
-                                "value": "0",
-                                "minValue": "0",
-                                "maxValue": 20,
-                                "clamp": false
-                            },
-                            "id": "04b0e3b2-38f4-4331-bda9-ce3c5a755983"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_POSITION",
-                            "args": {
-                                "actorId": "e87fa3db-6026-44c8-aff5-55cf8d02a048",
-                                "x": {
-                                    "type": "variable",
-                                    "value": "T0"
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 0
-                                }
-                            },
-                            "id": "57a1de2e-e153-40a1-9431-005bebd05b2f"
+                            "id": "7d950f91-c323-4d99-9186-152acb6fd781"
                         }
                     ],
                     "hit1Script": [],
@@ -1293,6 +1266,13 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "539e8b90-a395-4dfc-be9d-9603f5f8b9d9"
+                },
                 {
                     "command": "EVENT_RNG_SEED",
                     "args": {},
@@ -2503,6 +2483,78 @@
                         ]
                     },
                     "id": "dbe61f4d-7349-4eed-8c6f-f417d8863740"
+                }
+            ]
+        },
+        {
+            "id": "3bc65eec-2444-4875-8f9d-b77af8a4bcd3",
+            "name": "BOSS_Wait And Move Target",
+            "description": "",
+            "variables": {
+                "0": {
+                    "id": "0",
+                    "name": "Temp"
+                }
+            },
+            "actors": {
+                "0": {
+                    "id": "0",
+                    "name": "Target"
+                }
+            },
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_SHOW",
+                    "args": {
+                        "actorId": "0"
+                    },
+                    "id": "403e6f1e-629d-4b17-89a0-6661bd0b937d"
+                },
+                {
+                    "command": "EVENT_VARIABLE_MATH",
+                    "args": {
+                        "vectorX": "0",
+                        "operation": "set",
+                        "other": "rnd",
+                        "vectorY": "L0",
+                        "value": "0",
+                        "minValue": "0",
+                        "maxValue": 19,
+                        "clamp": false
+                    },
+                    "id": "62fd5085-4429-49cc-a71e-e76fc40aa8d0"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_POSITION",
+                    "args": {
+                        "actorId": "0",
+                        "x": {
+                            "type": "variable",
+                            "value": "0"
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "ddb6d30e-1453-4a87-80da-9cae27544815"
+                },
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "0",
+                        "x": {
+                            "type": "number",
+                            "value": 0
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 20
+                        },
+                        "moveType": "vertical",
+                        "useCollisions": false
+                    },
+                    "id": "0c0db79e-9032-4fcd-b1e8-5b57c884c4f9"
                 }
             ]
         }
