@@ -506,7 +506,38 @@
                     "y": 17
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "dfc2dab3-f7ef-415c-add2-114a8a6d6bbc",
+                    "x": 19,
+                    "y": 0,
+                    "width": 1,
+                    "height": 18,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "4"
+                            },
+                            "id": "17c9318f-e83e-4194-9468-08a8e0308c10"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "3542402b-7d8f-4d3f-a5f5-d4cec9eaccf1",
+                                "x": 1,
+                                "y": 16,
+                                "direction": "",
+                                "fadeSpeed": "2",
+                                "__collapse": true
+                            },
+                            "id": "a8cf05d0-b39b-4cc5-a604-052860f091b6"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -1465,7 +1496,7 @@
                 0,
                 0,
                 0,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -3997,9 +4028,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1432.3199462890625,
-        "worldScrollY": 503.03997802734375,
-        "zoom": 285.41668701171875,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 90.10417175292969,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
