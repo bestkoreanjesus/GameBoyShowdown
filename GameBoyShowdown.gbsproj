@@ -4415,21 +4415,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "(Press Select to \ntravel through"
+                                                "(Press Select to \ntravel to the\npast)"
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "ed6123dc-d1af-4c7e-8535-27b54e25ea1c"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "time)"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "322f2e45-6cd9-479c-807a-3c56ef467710"
                                     }
                                 ],
                                 "true1": [
@@ -4437,7 +4427,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "C'est... le \nsablier de mon"
+                                                "C'est... le \nsablier de mon\nmaître"
                                             ],
                                             "avatarId": ""
                                         },
@@ -4447,31 +4437,12 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "maïtre"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "f6a9dd94-e5c0-40b6-800c-d401738c0d25"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "(Appuyez sur\nselect pour"
+                                                "(Appuyez sur\nselect pour\nvovager vers le",
+                                                "passé)"
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "c0db4cb3-9257-4470-aaf9-4647b78dbdab"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "voyager dans le\ntemps)"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "26f1ba3b-edae-4e43-aff8-e6599a0590c3"
                                     }
                                 ],
                                 "true2": [],
@@ -7593,7 +7564,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "C'est la clé vers\nl'extérieur"
+                                                "C'est la clé vers\nde la porte\nprincipale"
                                             ],
                                             "avatarId": ""
                                         },
