@@ -3795,21 +3795,12 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "...It is strange\nMy master usually"
+                                                    "...It is strange\nMy master usually\ndon't let me sleep",
+                                                    "that long"
                                                 ],
                                                 "avatarId": ""
                                             },
                                             "id": "c855ffdc-dc10-4b8a-b4a5-efdd9646964a"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "don't let me sleep\nthat long"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "ae93be8d-68de-42d8-a6c1-82462c767faf"
                                         },
                                         {
                                             "command": "EVENT_TEXT",
@@ -3827,7 +3818,8 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "...C'est étrange\nMon maître ne me"
+                                                    "...C'est étrange\nMon maître ne me\nlaisse d'habitude",
+                                                    "pas dormir si\nlongtemps"
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -3837,41 +3829,12 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "laisse d'habitude\npas dormir si"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "38c4a25e-d607-4f90-910a-fb0676a71c3f"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "longtemps"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "5c090c1f-c75d-4372-9220-07a05d1c19ff"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "Je ferais mieux\nd'aller vérifier"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "64e84d39-95b9-4f21-8d90-d6f797787ad1"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
+                                                    "Je ferais mieux\nd'aller vérifier",
                                                     "que tout va bien"
                                                 ],
                                                 "avatarId": ""
                                             },
-                                            "id": "74515235-99d4-4910-b88e-7964c3c15d3c"
+                                            "id": "64e84d39-95b9-4f21-8d90-d6f797787ad1"
                                         }
                                     ],
                                     "true2": [],
@@ -4681,7 +4644,7 @@
                         "comparator": 1,
                         "__collapseElse": true,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -4731,7 +4694,8 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "The room is upside\ndown and the"
+                                                    "The room is upside\ndown and the\nwindow is broken,",
+                                                    "looks like master\nwas kidnapped"
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -4741,51 +4705,12 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "window is broken,\nlooks like master"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "80df8f7c-13e1-4815-ad17-8c6ffbcb060f"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "was kidnapped"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "11e66046-4de4-485f-9bcb-a6df469ba7a4"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "However he is one\nof the most"
+                                                    "However he is one\nof the most\npowerful wizard",
+                                                    "out there, I can't\nfathom who would\nbe able to do that"
                                                 ],
                                                 "avatarId": ""
                                             },
                                             "id": "b6fc57c5-0cd6-4c31-8d29-733292f450f4"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "powerful wizart\nout there, I can't"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "867873c6-f477-4244-be03-9d09fa98fcdb"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "fathom would would\nbe able to do that"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "78023f8c-264f-4ac3-934d-797b9f479c96"
                                         },
                                         {
                                             "command": "EVENT_TEXT",
@@ -4811,21 +4736,11 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "First thing first,\nlet's look for"
+                                                    "First thing first,\nlet's look for\nclues"
                                                 ],
                                                 "avatarId": ""
                                             },
                                             "id": "c78ea83c-6781-4c72-b274-2729116894a0"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "clues"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "aaa17ead-43ee-42f1-a549-0f64f2fcb4ee"
                                         }
                                     ],
                                     "true1": [
@@ -4833,7 +4748,8 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "La chambre est\nsans dessus"
+                                                    "La chambre est\nsans dessus\ndessous et la",
+                                                    "fenêtre est cassée\nil s'agit d'un\nkidnapping"
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -4843,61 +4759,13 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "dessous et la\nfenêtre est cassée"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "51d78c75-d053-4f01-aff6-cddbeebeacd0"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "il s'agit d'un\nkidnapping"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "5a972795-4c7b-410d-9af8-6a3b8d3681c4"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "Cependant maïtre\nest l'un des"
+                                                    "Cependant maïtre\nest l'un des\nsorciers les plus",
+                                                    "puissants, je n'ose\nimaginer qui\naurait put faire",
+                                                    "ça"
                                                 ],
                                                 "avatarId": ""
                                             },
                                             "id": "9db80c93-8c8b-44a2-b943-a73bc87333a7"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "sorcier les plus\npuissants"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "d1eed564-06bf-416e-b67b-66780f4c0391"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "je n'ose imagine\nqui aurait put"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "6c82551d-d8aa-49b0-a9bc-5fe53e6c3fb6"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "faire ça"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "69205580-7c15-49c7-83e0-17ab3c16f862"
                                         },
                                         {
                                             "command": "EVENT_TEXT",
@@ -4923,21 +4791,12 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Bon pour commencer\ncherchons des"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "20c75406-4c4d-4df1-85b8-c36186709a5a"
-                                        },
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
+                                                    "Bon pour commencer\ncherchons des",
                                                     "indices"
                                                 ],
                                                 "avatarId": ""
                                             },
-                                            "id": "fb6dcab3-e1a1-4f14-a6c8-67c3c54aae04"
+                                            "id": "20c75406-4c4d-4df1-85b8-c36186709a5a"
                                         }
                                     ],
                                     "true2": [],
@@ -9956,7 +9815,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
+        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
         "startX": 8,
         "startY": 8,
         "startMoveSpeed": 1,
@@ -9964,8 +9823,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 957,
-        "worldScrollY": 51,
+        "worldScrollX": 203,
+        "worldScrollY": 0,
         "zoom": 161.10219627805054,
         "customColorsEnabled": false,
         "sgbEnabled": false,
