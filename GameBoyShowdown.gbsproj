@@ -4371,7 +4371,78 @@
             "id": "e9dcf9ed-e1ae-446f-83a2-279fbacbe288",
             "x": 242.4386482618403,
             "y": 399.46466486608875,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Hourglass",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "(Text explaining\nhourglass stuffs)"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "791f3b02-cf10-4a66-8c51-1d3ec728f98e"
+                        },
+                        {
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "6"
+                            },
+                            "id": "53ecf835-ae9e-49fa-8ed2-faae601ac8f2"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "50980b8b-d33b-492e-8c57-db90d3139e7d"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "L0",
+                                "operator": ">=",
+                                "comparator": 2,
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "13207e02-d9ce-469e-b733-6613a010826c"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "9f887998-3529-4fd5-a965-f2e6a5fd97a4"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "90eeb833-7992-4406-9093-143cee8b9eff",
+                    "x": 12,
+                    "y": 14
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -7030,9 +7101,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 459,
-        "worldScrollY": 758,
-        "zoom": 290.1041717529297,
+        "worldScrollX": 0,
+        "worldScrollY": 8,
+        "zoom": 140.1041717529297,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
