@@ -2152,7 +2152,7 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "8",
+                                "variable": "10",
                                 "operator": "<=",
                                 "comparator": 0,
                                 "__collapseElse": true
@@ -2196,7 +2196,7 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "8",
+                                "variable": "10",
                                 "operator": "<=",
                                 "comparator": 1,
                                 "__collapseElse": true
@@ -2240,7 +2240,7 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "8",
+                                "variable": "10",
                                 "operator": "<=",
                                 "comparator": 2,
                                 "__collapseElse": true
@@ -2284,7 +2284,7 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "8",
+                                "variable": "10",
                                 "operator": "<=",
                                 "comparator": 3,
                                 "__collapseElse": true
@@ -2328,7 +2328,7 @@
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
-                                "variable": "8",
+                                "variable": "10",
                                 "operator": "<=",
                                 "comparator": 4,
                                 "__collapseElse": true
@@ -2359,6 +2359,17 @@
             ],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "8",
+                        "value": {
+                            "type": "variable",
+                            "value": "10"
+                        }
+                    },
+                    "id": "b3b19e9f-cb1e-40b4-9371-a531dcdd0557"
+                },
                 {
                     "command": "EVENT_RNG_SEED",
                     "args": {},
@@ -2403,7 +2414,7 @@
                         "value15": 16,
                         "__collapseElse": false,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true0": [
@@ -2857,7 +2868,7 @@
                     "args": {
                         "duration": 10,
                         "__scriptTabs": "end",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "script": [
@@ -9999,7 +10010,7 @@
                 {
                     "command": "EVENT_VARIABLE_MATH_EVALUATE",
                     "args": {
-                        "variable": "8",
+                        "variable": "10",
                         "expression": "6 - $07$"
                     },
                     "id": "e648c595-0ee1-4d75-bfae-b1715827d948"
@@ -10834,7 +10845,7 @@
                         "variable": "3",
                         "value": {
                             "type": "number",
-                            "value": 10
+                            "value": 200
                         }
                     },
                     "id": "2609d33e-1108-4b8e-8c7f-db7112340588"
@@ -12864,7 +12875,7 @@
         },
         {
             "id": "10",
-            "name": "Variable 09"
+            "name": "PlayerLifesBase"
         }
     ],
     "engineFieldValues": [
