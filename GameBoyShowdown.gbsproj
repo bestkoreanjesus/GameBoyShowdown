@@ -5434,21 +5434,12 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Master don't let\nme go around "
+                                                            "Master doesn't let\nme go around \nfreely so it's",
+                                                            "closed"
                                                         ],
                                                         "avatarId": ""
                                                     },
                                                     "id": "3e4e881c-b25e-4a7a-b4eb-01476d815f0d"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "freely so it's\nclosed"
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "fb03daa7-db9b-4da5-aa96-4f16be03ba36"
                                                 }
                                             ],
                                             "true1": [
@@ -5466,31 +5457,12 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Maître ne me\nlaisse pas me"
+                                                            "Maître ne me\nlaisse pas me\npromener comme",
+                                                            "je le sens donc\nelle est fermée"
                                                         ],
                                                         "avatarId": ""
                                                     },
                                                     "id": "3bbec1ed-66b2-4de1-abfe-eb62fe773dc8"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "prommener comme\nje le sens donc"
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "2d176809-b90e-4a3c-bf3e-02591762fd6e"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "elle est fermée"
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "2fdcfe57-189b-4a8e-8f2f-2165e16a7d28"
                                                 }
                                             ],
                                             "true2": [],
@@ -6738,9 +6710,9 @@
                                         "args": {
                                             "variable": "5",
                                             "choices": 2,
-                                            "__collapseCase0": true,
+                                            "__collapseCase0": false,
                                             "value0": 0,
-                                            "__collapseCase1": true,
+                                            "__collapseCase1": false,
                                             "value1": 1,
                                             "__collapseCase2": false,
                                             "value2": 3,
@@ -6783,27 +6755,18 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "4ef723bd-15e4-46b0-89ff-6ad17d8dcf68"
+                                                    "id": "32803e81-0d7e-4c8f-9561-ae259aaa0f0d"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Master don't let\nme go around "
+                                                            "Master doesn't let\nme go around \nfreely so it's",
+                                                            "closed"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "ccba0489-48c1-47b8-b7ea-f0918e774594"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "freely so it's\nclosed"
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "1f23d02e-8d2a-44c0-bbfb-79fabde5ed34"
+                                                    "id": "d585b1a9-990b-4de3-b12d-0bb45070d31e"
                                                 }
                                             ],
                                             "true1": [
@@ -6815,37 +6778,18 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "cf9f24a7-aa07-4e49-a87b-178b646ae1c1"
+                                                    "id": "465c19b4-2e69-4715-9b78-0ddd9f458851"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Maître ne me\nlaisse pas me"
+                                                            "Maître ne me\nlaisse pas me\npromener comme",
+                                                            "je le sens donc\nelle est fermée"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "e7c773d3-e06c-4254-adc8-ef069e70fc28"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "prommener comme\nje le sens donc"
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "366fcd82-45bc-4a1a-8d8a-0f5131f583b6"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "elle est fermée"
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "78d0b2ba-3446-46e9-b13c-e7e385522e63"
+                                                    "id": "a0e53b92-3167-46e9-82c7-7b22797c5da7"
                                                 }
                                             ],
                                             "true2": [],
@@ -6864,7 +6808,7 @@
                                             "true15": [],
                                             "false": []
                                         },
-                                        "id": "065496c0-beea-48a9-b68e-a98db0875204"
+                                        "id": "5428117c-d8bd-4a49-9a16-129994c7036b"
                                     },
                                     {
                                         "command": "EVENT_ACTOR_MOVE_RELATIVE",
