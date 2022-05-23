@@ -2282,15 +2282,207 @@
                     "id": "cf543d57-a523-4599-9f1a-103c61c5fc9d"
                 },
                 {
-                    "command": "EVENT_SWITCH_SCENE",
+                    "command": "EVENT_SWITCH",
                     "args": {
-                        "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
-                        "x": 2,
-                        "y": 4,
-                        "direction": "",
-                        "fadeSpeed": "2"
+                        "variable": "5",
+                        "choices": 2,
+                        "__collapseCase0": false,
+                        "value0": 0,
+                        "__collapseCase1": false,
+                        "value1": 1,
+                        "__collapseCase2": false,
+                        "value2": 3,
+                        "__collapseCase3": false,
+                        "value3": 4,
+                        "__collapseCase4": false,
+                        "value4": 5,
+                        "__collapseCase5": false,
+                        "value5": 6,
+                        "__collapseCase6": false,
+                        "value6": 7,
+                        "__collapseCase7": false,
+                        "value7": 8,
+                        "__collapseCase8": false,
+                        "value8": 9,
+                        "__collapseCase9": false,
+                        "value9": 10,
+                        "__collapseCase10": false,
+                        "value10": 11,
+                        "__collapseCase11": false,
+                        "value11": 12,
+                        "__collapseCase12": false,
+                        "value12": 13,
+                        "__collapseCase13": false,
+                        "value13": 14,
+                        "__collapseCase14": false,
+                        "value14": 15,
+                        "__collapseCase15": false,
+                        "value15": 16,
+                        "__collapseElse": false,
+                        "__disableElse": true
                     },
-                    "id": "26d2fbce-c43e-4ddd-8ab3-f617b8a177bc"
+                    "children": {
+                        "true0": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "L0",
+                                    "items": 2,
+                                    "option1": "Play",
+                                    "option2": "Set Language",
+                                    "option3": "",
+                                    "option4": "",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": false,
+                                    "layout": "dialogue"
+                                },
+                                "id": "cb0d8aba-3043-44c5-be77-9717148d25e4"
+                            }
+                        ],
+                        "true1": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "L0",
+                                    "items": 2,
+                                    "option1": "Jouer",
+                                    "option2": "Changer la langue",
+                                    "option3": "",
+                                    "option4": "",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": false,
+                                    "layout": "dialogue"
+                                },
+                                "id": "59c03cf9-9ed9-49a6-bf0c-2498017a2896"
+                            }
+                        ],
+                        "true2": [],
+                        "true3": [],
+                        "true4": [],
+                        "true5": [],
+                        "true6": [],
+                        "true7": [],
+                        "true8": [],
+                        "true9": [],
+                        "true10": [],
+                        "true11": [],
+                        "true12": [],
+                        "true13": [],
+                        "true14": [],
+                        "true15": [],
+                        "false": []
+                    },
+                    "id": "afaec11c-69ff-47d5-9579-fc187cd4977f"
+                },
+                {
+                    "command": "EVENT_SWITCH",
+                    "args": {
+                        "variable": "L0",
+                        "choices": 2,
+                        "__collapseCase0": false,
+                        "value0": 1,
+                        "__collapseCase1": false,
+                        "value1": 2,
+                        "__collapseCase2": false,
+                        "value2": 3,
+                        "__collapseCase3": false,
+                        "value3": 4,
+                        "__collapseCase4": false,
+                        "value4": 5,
+                        "__collapseCase5": false,
+                        "value5": 6,
+                        "__collapseCase6": false,
+                        "value6": 7,
+                        "__collapseCase7": false,
+                        "value7": 8,
+                        "__collapseCase8": false,
+                        "value8": 9,
+                        "__collapseCase9": false,
+                        "value9": 10,
+                        "__collapseCase10": false,
+                        "value10": 11,
+                        "__collapseCase11": false,
+                        "value11": 12,
+                        "__collapseCase12": false,
+                        "value12": 13,
+                        "__collapseCase13": false,
+                        "value13": 14,
+                        "__collapseCase14": false,
+                        "value14": 15,
+                        "__collapseCase15": false,
+                        "value15": 16,
+                        "__collapseElse": false,
+                        "__disableElse": true
+                    },
+                    "children": {
+                        "true0": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "bb454a3b-9cf8-4185-8b4e-c57f4a68858a"
+                            }
+                        ],
+                        "true1": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "5",
+                                    "items": 2,
+                                    "option1": "Français",
+                                    "option2": "English",
+                                    "option3": "",
+                                    "option4": "",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": false,
+                                    "layout": "dialogue",
+                                    "cancelOnLastOption": true
+                                },
+                                "id": "759c080a-af7c-48ef-b5f9-ac1051653cfd"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "15649a87-67f8-482c-96f2-03da425c7d33"
+                            }
+                        ],
+                        "true2": [],
+                        "true3": [],
+                        "true4": [],
+                        "true5": [],
+                        "true6": [],
+                        "true7": [],
+                        "true8": [],
+                        "true9": [],
+                        "true10": [],
+                        "true11": [],
+                        "true12": [],
+                        "true13": [],
+                        "true14": [],
+                        "true15": [],
+                        "false": []
+                    },
+                    "id": "ab47d630-5a25-465c-86cc-a40faa5f56f2"
                 }
             ],
             "playerHit1Script": [],
@@ -4691,6 +4883,10 @@
         {
             "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
             "name": "Local 0"
+        },
+        {
+            "id": "5",
+            "name": "Language"
         }
     ],
     "engineFieldValues": [
@@ -4720,9 +4916,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1756,
-        "worldScrollY": 62,
-        "zoom": 340.1041717529297,
+        "worldScrollX": 0,
+        "worldScrollY": 1,
+        "zoom": 140.1041717529297,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
