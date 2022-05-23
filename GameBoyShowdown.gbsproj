@@ -563,7 +563,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -610,7 +610,7 @@
                                                 "y": 0,
                                                 "direction": "",
                                                 "fadeSpeed": 3,
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "id": "75a004cf-60d4-4bd7-aae4-caa32373f6a7"
                                         }
@@ -1128,12 +1128,12 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "3542402b-7d8f-4d3f-a5f5-d4cec9eaccf1",
+                                "sceneId": "16aacbba-cad7-4716-99b3-d193460234c5",
                                 "x": 1,
                                 "y": 16,
                                 "direction": "",
                                 "fadeSpeed": "2",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "268cd69e-f17c-41ff-a3f9-b7130c893da6"
                         }
@@ -1168,7 +1168,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -7787,7 +7787,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "bedroom_present.png"
+            "filename": "bedroom_present.png",
+            "tileColors": []
         },
         {
             "id": "e0cff349-9dd3-4ee2-88ba-cf6e1bb07b49",
@@ -7796,7 +7797,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "corridor_present.png"
+            "filename": "corridor_present.png",
+            "tileColors": []
         },
         {
             "id": "4d00d359-f426-4953-a8a1-5f47d696df8c",
@@ -7825,7 +7827,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "masterroom_present.png"
+            "filename": "masterroom_present.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -8951,7 +8954,7 @@
                     "args": {
                         "variable": "3",
                         "__collapseElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -9253,12 +9256,16 @@
             "name": "HasTraveled"
         },
         {
-            "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
-            "name": "Local 0"
-        },
-        {
             "id": "5",
             "name": "Language"
+        },
+        {
+            "id": "6",
+            "name": "ScenarioProgression"
+        },
+        {
+            "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
+            "name": "Local 0"
         },
         {
             "id": "b217c1c1-b935-4ce6-aa90-d99f4dc2dd0c__L0",
@@ -9275,10 +9282,6 @@
         {
             "id": "69a23bda-9272-411a-8c90-de72ec3462e6__L0",
             "name": "Local 0"
-        },
-        {
-            "id": "6",
-            "name": "ScenarioProgression"
         },
         {
             "id": "017c528b-5009-496c-8651-17f804ca09f0__L0",
