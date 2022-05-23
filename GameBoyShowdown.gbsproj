@@ -5738,7 +5738,7 @@
         },
         {
             "name": "Bedroom_past",
-            "backgroundId": "da8f925a-48d7-47f7-8a98-60f15575a6d5",
+            "backgroundId": "d9fb0231-475d-477c-9d76-514a89d1a108",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -5951,6 +5951,15 @@
                 0,
                 0,
                 15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -5959,6 +5968,57 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -6018,67 +6078,7 @@
                 0,
                 0,
                 0,
-                0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
                 0,
                 0,
@@ -6147,7 +6147,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -6846,7 +6846,7 @@
                                 "value15": 16,
                                 "__collapseElse": false,
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true0": [
@@ -6858,37 +6858,18 @@
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "2faaffdf-4284-4960-89c3-c4b26a8d0dcb"
+                                        "id": "4b0ad6f2-e86d-4654-a432-47ff9fd7f312"
                                     },
                                     {
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "I don't even want\nto imagine what"
+                                                "I don't even want\nto imagine what\nmaster would do to",
+                                                "me if here were to\nfind me up there"
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "55aaa4f2-1487-4601-bba9-bf691654610b"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "master would be to\nme if he were to"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "fe9df0c7-559b-48a3-a9b3-ebfb8b77000e"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "find me up there"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "4df55e15-42f3-4f51-b805-903d15c004cf"
+                                        "id": "e077ce6e-4c8c-4477-a32e-8cf55c2620c6"
                                     }
                                 ],
                                 "true1": [
@@ -6900,37 +6881,18 @@
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "905ae24b-7932-4397-8930-8515e3c24ea3"
+                                        "id": "df54dfdf-770e-441b-a884-078346361eee"
                                     },
                                     {
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Je ne veux même\npas essayer"
+                                                "Je ne veux même\npas essayer\nd'imaginer ce que",
+                                                "maître me ferais\nsi il me trouvait\nlà haut"
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "b67903f3-a9eb-4ab9-b5a4-feade3da4ea2"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "d'immaginer ce que\nmaître me ferrais"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "f60d3727-1e97-43a9-92e1-df4d0f069396"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "si il me trouvait\nlà haut"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "cc377a1a-30c0-4e25-b6e6-369e66c14dda"
+                                        "id": "30868632-2c1f-4eba-8c5a-24102fd4be85"
                                     }
                                 ],
                                 "true2": [],
@@ -6949,7 +6911,7 @@
                                 "true15": [],
                                 "false": []
                             },
-                            "id": "4f97242f-3f79-4583-b98b-97847683f8bc"
+                            "id": "bd62b658-0615-488a-a7f1-cc31e9b67188"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -6960,7 +6922,7 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "aada4a13-73b8-4734-bdff-b1e4e086eeeb"
+                            "id": "e72688bc-f4bf-4972-a5a5-725d31bad010"
                         }
                     ],
                     "leaveScript": []
@@ -6997,121 +6959,86 @@
             ],
             "script": [
                 {
-                    "command": "EVENT_SWITCH",
+                    "command": "EVENT_GROUP",
                     "args": {
-                        "variable": "5",
-                        "choices": 2,
-                        "__collapseCase0": false,
-                        "value0": 0,
-                        "__collapseCase1": false,
-                        "value1": 1,
-                        "__collapseCase2": false,
-                        "value2": 3,
-                        "__collapseCase3": false,
-                        "value3": 4,
-                        "__collapseCase4": false,
-                        "value4": 5,
-                        "__collapseCase5": false,
-                        "value5": 6,
-                        "__collapseCase6": false,
-                        "value6": 7,
-                        "__collapseCase7": false,
-                        "value7": 8,
-                        "__collapseCase8": false,
-                        "value8": 9,
-                        "__collapseCase9": false,
-                        "value9": 10,
-                        "__collapseCase10": false,
-                        "value10": 11,
-                        "__collapseCase11": false,
-                        "value11": 12,
-                        "__collapseCase12": false,
-                        "value12": 13,
-                        "__collapseCase13": false,
-                        "value13": 14,
-                        "__collapseCase14": false,
-                        "value14": 15,
-                        "__collapseCase15": false,
-                        "value15": 16,
-                        "__collapseElse": false,
-                        "__disableElse": true,
                         "__collapse": false
                     },
                     "children": {
-                        "true0": [
+                        "true": [
                             {
-                                "command": "EVENT_TEXT",
+                                "command": "EVENT_CALL_CUSTOM_EVENT",
                                 "args": {
-                                    "text": [
-                                        "The door to the\nlaboratory"
-                                    ],
-                                    "avatarId": ""
+                                    "customEventId": "28013c3e-743b-43ca-a8d5-c11ff45def09",
+                                    "$variable[1]$": "1",
+                                    "$variable[2]$": "2",
+                                    "__collapse": false,
+                                    "$variable[3]$": "4"
                                 },
-                                "id": "5800d10d-9049-4f66-808c-47604709359a"
+                                "id": "90ace0ad-9c45-420f-a5c5-880af39da3f9"
                             },
                             {
-                                "command": "EVENT_TEXT",
+                                "command": "EVENT_SET_INPUT_SCRIPT",
                                 "args": {
-                                    "text": [
-                                        "I don't even want\nto imagine what\nmaster would do to",
-                                        "me if here were to\nfind me up there"
+                                    "input": [
+                                        "select"
                                     ],
-                                    "avatarId": ""
+                                    "override": false,
+                                    "__scriptTabs": "press",
+                                    "__collapse": false
                                 },
-                                "id": "d0c2d5d4-fa20-4fd1-a50c-ec59579a7ad6"
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_ACTOR_GET_DIRECTION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "direction": "2"
+                                            },
+                                            "id": "de4e12c4-89ab-4325-a22f-93c64e7149e1"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_GET_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "vectorX": "0",
+                                                "vectorY": "1",
+                                                "__collapse": false
+                                            },
+                                            "id": "3bf3edf0-3fe1-49cb-8712-83e582f7e6b0"
+                                        },
+                                        {
+                                            "command": "EVENT_INC_VALUE",
+                                            "args": {
+                                                "variable": "3"
+                                            },
+                                            "id": "78f381f2-452a-47f5-a1ec-f3ec3233154b"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_TRUE",
+                                            "args": {
+                                                "variable": "4"
+                                            },
+                                            "id": "e551e548-a506-4906-9de5-1b58ecc4fdd9"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "69a23bda-9272-411a-8c90-de72ec3462e6",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": 3,
+                                                "__collapse": false
+                                            },
+                                            "id": "ad33c03c-bb3a-41ee-bdcf-5f71d8bda50b"
+                                        }
+                                    ]
+                                },
+                                "id": "e771fe97-490d-403a-b3ca-90c480059aed"
                             }
-                        ],
-                        "true1": [
-                            {
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "La porte vers le\nlaboratoire"
-                                    ],
-                                    "avatarId": ""
-                                },
-                                "id": "52554709-20b7-42c1-a650-1446b723ee73"
-                            },
-                            {
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "Je ne veux même\npas essayer\nd'imaginer ce que",
-                                        "maître me ferais\nsi il me trouvait\nlà haut"
-                                    ],
-                                    "avatarId": ""
-                                },
-                                "id": "17bf3cd4-e1d7-487b-8903-5d35af750b8f"
-                            }
-                        ],
-                        "true2": [],
-                        "true3": [],
-                        "true4": [],
-                        "true5": [],
-                        "true6": [],
-                        "true7": [],
-                        "true8": [],
-                        "true9": [],
-                        "true10": [],
-                        "true11": [],
-                        "true12": [],
-                        "true13": [],
-                        "true14": [],
-                        "true15": [],
-                        "false": []
+                        ]
                     },
-                    "id": "ff16364f-77bb-43f7-ad41-3f3708af1f32"
-                },
-                {
-                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                    "args": {
-                        "actorId": "$self$",
-                        "x": 1,
-                        "y": 0,
-                        "moveType": "horizontal",
-                        "useCollisions": false
-                    },
-                    "id": "c20dc859-905a-48c4-9a58-5781bc478319"
+                    "id": "9056676b-7e92-4817-b013-56cab942a3b5"
                 }
             ],
             "playerHit1Script": [],
@@ -8191,6 +8118,15 @@
             "imageHeight": 144,
             "filename": "MAp present.png",
             "tileColors": []
+        },
+        {
+            "id": "d9fb0231-475d-477c-9d76-514a89d1a108",
+            "name": "bedroom_past",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "bedroom_past.png"
         },
         {
             "id": "da8f925a-48d7-47f7-8a98-60f15575a6d5",
