@@ -1988,6 +1988,11 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_RNG_SEED",
+                    "args": {},
+                    "id": "c227f1c2-4a6d-44e7-b005-e62a108355e7"
+                },
+                {
                     "command": "EVENT_SWITCH",
                     "args": {
                         "variable": "7",
@@ -2025,7 +2030,8 @@
                         "__collapseCase15": false,
                         "value15": 16,
                         "__collapseElse": false,
-                        "__disableElse": true
+                        "__disableElse": true,
+                        "__collapse": true
                     },
                     "children": {
                         "true0": [
@@ -3330,11 +3336,6 @@
                         "actorId": "$self$"
                     },
                     "id": "539e8b90-a395-4dfc-be9d-9603f5f8b9d9"
-                },
-                {
-                    "command": "EVENT_RNG_SEED",
-                    "args": {},
-                    "id": "32f595fd-19c6-4655-96d7-bd53a4f9dab5"
                 },
                 {
                     "command": "EVENT_SWITCH",
@@ -9352,7 +9353,8 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__label": "Set boss difficulty"
+                        "__label": "Set boss difficulty",
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -12512,8 +12514,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1368,
-        "worldScrollY": 1,
+        "worldScrollX": 1449,
+        "worldScrollY": 0,
         "zoom": 185.13328335434153,
         "customColorsEnabled": false,
         "sgbEnabled": false,
