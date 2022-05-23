@@ -1631,26 +1631,6 @@
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "customEventId": "3bc65eec-2444-4875-8f9d-b77af8a4bcd3",
-                                "$actor[0]$": "bf7b538d-2cc4-46db-af5e-e9c87693fbd1",
-                                "$variable[0]$": "T0",
-                                "__collapse": false
-                            },
-                            "id": "be8259df-d729-4ed3-a987-2efc572d10e3"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "c448f79e-cfdf-426a-bb96-1e272d446a48",
-                                "$actor[0]$": "bcd726dc-5cbc-4fd4-b19d-bd5c008897d3",
-                                "$variable[0]$": "T0",
-                                "__collapse": false
-                            },
-                            "id": "80eb2625-5995-4470-8408-9ef2a8c4634d"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
                                 "customEventId": "c448f79e-cfdf-426a-bb96-1e272d446a48",
                                 "$actor[0]$": "8bbb524a-6bdf-4836-97e7-14b2f73403cf",
                                 "$variable[0]$": "T0",
@@ -1675,7 +1655,7 @@
                     "y": 0
                 },
                 {
-                    "name": "Bullet 1",
+                    "name": "Bullet L1",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -1730,117 +1710,7 @@
                     "y": 1
                 },
                 {
-                    "name": "Bullet 2",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 2,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "1",
-                    "script": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "91b0e7c5-07fe-4cbc-b11f-9837cb1124d1"
-                            },
-                            "id": "f8a1a781-e764-4591-b0b3-d2335a4beb17"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "fe42327c-9b4b-49e2-ac9f-61531535f5d9"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_ACTOR_MOVE_TO",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 20
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 17
-                                },
-                                "moveType": "vertical",
-                                "useCollisions": false
-                            },
-                            "id": "a5bd247f-0d16-483d-91e1-60740c7d9ea6"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "bf7b538d-2cc4-46db-af5e-e9c87693fbd1",
-                    "x": 5,
-                    "y": 1
-                },
-                {
-                    "name": "Bullet 4",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 2,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "1",
-                    "script": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "91b0e7c5-07fe-4cbc-b11f-9837cb1124d1"
-                            },
-                            "id": "866b17b1-ae4b-4f78-a9ea-cba1a1ff8752"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "d4cc5d76-967a-489b-8a2d-6e050224c6de"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_ACTOR_MOVE_TO",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 0
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 17
-                                },
-                                "moveType": "vertical",
-                                "useCollisions": false
-                            },
-                            "id": "184f7ae1-501e-4b32-a59c-7c00fbfa79a4"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "bcd726dc-5cbc-4fd4-b19d-bd5c008897d3",
-                    "x": 13,
-                    "y": 1
-                },
-                {
-                    "name": "Bullet 5",
+                    "name": "Bullet R1",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
