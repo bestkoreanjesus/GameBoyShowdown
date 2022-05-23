@@ -499,6 +499,15 @@
                             "id": "462a63f1-ed23-4f5d-9d3b-09877841ac9c"
                         },
                         {
+                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                            "args": {
+                                "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
+                                "speed": 2,
+                                "__collapse": true
+                            },
+                            "id": "7c5c7359-4ad9-41f3-8ab2-4f21191ad086"
+                        },
+                        {
                             "command": "EVENT_ACTOR_MOVE_TO",
                             "args": {
                                 "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
@@ -526,15 +535,6 @@
                                 "__collapse": true
                             },
                             "id": "031f7c58-caf8-43ae-99e3-d57ee0935441"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-                            "args": {
-                                "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
-                                "speed": 4,
-                                "__collapse": true
-                            },
-                            "id": "7c5c7359-4ad9-41f3-8ab2-4f21191ad086"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12070,16 +12070,6 @@
                 },
                 {
                     "name": "",
-                    "id": "82b9cef2-d823-498f-9b10-449c687ca91d",
-                    "x": 8,
-                    "y": 10,
-                    "width": 2,
-                    "height": 2,
-                    "script": [],
-                    "leaveScript": []
-                },
-                {
-                    "name": "",
                     "id": "91aebdeb-b198-4858-a1f8-9b22310ace9f",
                     "x": 6,
                     "y": 6,
@@ -12148,6 +12138,16 @@
                     "height": 2,
                     "script": [],
                     "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "578f8140-35aa-4bfc-ace3-b398e73cafc8",
+                    "x": 8,
+                    "y": 10,
+                    "width": 1,
+                    "height": 2,
+                    "script": [],
+                    "leaveScript": []
                 }
             ],
             "script": [],
@@ -12175,7 +12175,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Shelf_Hourglass.png"
+            "filename": "Shelf_Hourglass.png",
+            "tileColors": []
         },
         {
             "id": "d9fb0231-475d-477c-9d76-514a89d1a108",
@@ -12204,7 +12205,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "corridor_past.png"
+            "filename": "corridor_past.png",
+            "tileColors": []
         },
         {
             "id": "e0cff349-9dd3-4ee2-88ba-cf6e1bb07b49",
@@ -12263,7 +12265,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "single_guard_room_past.png"
+            "filename": "single_guard_room_past.png",
+            "tileColors": []
         },
         {
             "id": "3d3c5dff-db90-4d78-b122-3d8ce4c8d513",
@@ -12272,7 +12275,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "single_guard_room_present.png"
+            "filename": "single_guard_room_present.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -14547,16 +14551,16 @@
     ],
     "settings": {
         "startSceneId": "e702dbac-f301-4781-9d92-0827cb339dd6",
-        "startX": 8,
-        "startY": 12,
+        "startX": 6,
+        "startY": 14,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4439.0400390625,
-        "worldScrollY": 834.0479736328125,
-        "zoom": 350.52085876464844,
+        "worldScrollX": 9453.3115234375,
+        "worldScrollY": 715.0079956054688,
+        "zoom": 741.1458892822266,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
