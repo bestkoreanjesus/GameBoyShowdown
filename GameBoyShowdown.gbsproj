@@ -1624,7 +1624,7 @@
                                 "customEventId": "3bc65eec-2444-4875-8f9d-b77af8a4bcd3",
                                 "$actor[0]$": "e87fa3db-6026-44c8-aff5-55cf8d02a048",
                                 "$variable[0]$": "T0",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "7d950f91-c323-4d99-9186-152acb6fd781"
                         },
@@ -1634,9 +1634,185 @@
                                 "customEventId": "c448f79e-cfdf-426a-bb96-1e272d446a48",
                                 "$actor[0]$": "8bbb524a-6bdf-4836-97e7-14b2f73403cf",
                                 "$variable[0]$": "T0",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "6b2d8371-1bd4-4006-af16-38905111c15a"
+                        },
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "7",
+                                "choices": 5,
+                                "__collapseCase0": false,
+                                "value0": 1,
+                                "__collapseCase1": false,
+                                "value1": 2,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "clamp": false
+                                        },
+                                        "id": "55e46617-e99b-471d-83ee-b3e735579c24"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                                        "args": {
+                                            "variable": "T1",
+                                            "expression": "3 - $T0$"
+                                        },
+                                        "id": "64d97634-e2f7-4589-b8e3-ba6c65eb1b8a"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": 1,
+                                            "maxValue": 3,
+                                            "clamp": false
+                                        },
+                                        "id": "7fcd0702-d893-45e9-9914-685340e608f4"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                                        "args": {
+                                            "variable": "T1",
+                                            "expression": "4 - $T0$"
+                                        },
+                                        "id": "59ae16f8-f6c3-4765-83bd-7510d356ffc8"
+                                    }
+                                ],
+                                "true2": [
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": 1,
+                                            "maxValue": 4,
+                                            "clamp": false
+                                        },
+                                        "id": "ef358e20-eb4b-4599-be5f-a2fce2dc62a7"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                                        "args": {
+                                            "variable": "T1",
+                                            "expression": "5 - $T0$"
+                                        },
+                                        "id": "0cccd773-91c2-4464-a690-68b772b015c0"
+                                    }
+                                ],
+                                "true3": [
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": 2,
+                                            "maxValue": 4,
+                                            "clamp": false
+                                        },
+                                        "id": "46fbebcb-8269-4770-9842-f83f8c31dc84"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                                        "args": {
+                                            "variable": "T1",
+                                            "expression": "6 - $T0$"
+                                        },
+                                        "id": "accdc368-c7d5-4bb5-ac6e-b078358603f0"
+                                    }
+                                ],
+                                "true4": [
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": 3,
+                                            "maxValue": 4,
+                                            "clamp": false
+                                        },
+                                        "id": "2955d23d-cf05-4d32-b1b9-b50bfa322fb4"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                                        "args": {
+                                            "variable": "T1",
+                                            "expression": "7 - $T0$"
+                                        },
+                                        "id": "37847052-4c10-4117-9803-67d8f108bb9c"
+                                    }
+                                ],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "bc2d5d75-3604-451b-b315-c99629cdb680"
                         },
                         {
                             "command": "EVENT_WAIT",
@@ -2485,7 +2661,7 @@
                     "args": {
                         "duration": 10,
                         "__scriptTabs": "end",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "script": [
@@ -12485,6 +12661,14 @@
         {
             "id": "8",
             "name": "PlayerLifes"
+        },
+        {
+            "id": "9",
+            "name": "Variable 10"
+        },
+        {
+            "id": "10",
+            "name": "Variable 09"
         }
     ],
     "engineFieldValues": [
