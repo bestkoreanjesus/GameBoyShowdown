@@ -528,6 +528,15 @@
                             "id": "031f7c58-caf8-43ae-99e3-d57ee0935441"
                         },
                         {
+                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                            "args": {
+                                "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
+                                "speed": 4,
+                                "__collapse": true
+                            },
+                            "id": "7c5c7359-4ad9-41f3-8ab2-4f21191ad086"
+                        },
+                        {
                             "command": "EVENT_ACTOR_MOVE_TO",
                             "args": {
                                 "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
@@ -544,6 +553,15 @@
                                 "__collapse": true
                             },
                             "id": "d7fb4b16-ec41-4421-96de-2edf50b70a17"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                            "args": {
+                                "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
+                                "speed": 0.5,
+                                "__collapse": true
+                            },
+                            "id": "4df67bc7-aef5-42c7-91e9-77f0697baa5b"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -11979,9 +11997,9 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "2b0c569e-4864-4e22-a3a8-9925326be31f",
-                                "x": 0,
-                                "y": 0,
-                                "direction": "",
+                                "x": 4,
+                                "y": 2,
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "db8ffb95-447a-49ba-b4aa-173a75f6f869"
@@ -14536,9 +14554,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 8616.19140625,
-        "worldScrollY": 784.89599609375,
-        "zoom": 676.0417175292969,
+        "worldScrollX": 4439.0400390625,
+        "worldScrollY": 834.0479736328125,
+        "zoom": 350.52085876464844,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
