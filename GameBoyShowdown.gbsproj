@@ -2207,10 +2207,10 @@
                                 "command": "EVENT_MENU",
                                 "args": {
                                     "variable": "L0",
-                                    "items": 2,
+                                    "items": 3,
                                     "option1": "Play",
                                     "option2": "Set Language",
-                                    "option3": "",
+                                    "option3": "Credits",
                                     "option4": "",
                                     "option5": "",
                                     "option6": "",
@@ -2227,10 +2227,10 @@
                                 "command": "EVENT_MENU",
                                 "args": {
                                     "variable": "L0",
-                                    "items": 2,
+                                    "items": 3,
                                     "option1": "Jouer",
                                     "option2": "Changer la langue",
-                                    "option3": "",
+                                    "option3": "Crédits",
                                     "option4": "",
                                     "option5": "",
                                     "option6": "",
@@ -2264,7 +2264,7 @@
                     "command": "EVENT_SWITCH",
                     "args": {
                         "variable": "L0",
-                        "choices": 2,
+                        "choices": 3,
                         "__collapseCase0": false,
                         "value0": 1,
                         "__collapseCase1": false,
@@ -2346,7 +2346,106 @@
                                 "id": "15649a87-67f8-482c-96f2-03da425c7d33"
                             }
                         ],
-                        "true2": [],
+                        "true2": [
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "5",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 0,
+                                    "__collapseCase1": false,
+                                    "value1": 1,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "2D art:\nXXXX",
+                                                    "Programming:\nAlexandre Coulon\nChristian Chaux",
+                                                    "Sounds & Musics:\nXXX"
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "ed486bc4-32cb-451a-a128-6fd49d8969f5"
+                                        }
+                                    ],
+                                    "true1": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Dessins 2D\nXXXX",
+                                                    "Programmation:\nAlexandre Coulon\nChristian Chaux",
+                                                    "Sons et Musiques:\nXXX"
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "93405e61-84c9-4ce8-849c-1a5e24be6d98"
+                                        }
+                                    ],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "601194ba-9605-4355-9a5a-1c5f6d1a9d13"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "1463141d-c3b3-4401-a7a9-ef18da192f4b"
+                            }
+                        ],
                         "true3": [],
                         "true4": [],
                         "true5": [],
@@ -9671,8 +9770,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 203,
-        "worldScrollY": 0,
+        "worldScrollX": 0,
+        "worldScrollY": 5,
         "zoom": 161.10219627805054,
         "customColorsEnabled": false,
         "sgbEnabled": false,
