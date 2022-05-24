@@ -390,19 +390,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": 13,
-                                "y": 3,
-                                "moveType": "vertical",
-                                "useCollisions": false
-                            },
-                            "id": "8b7095db-3257-4b93-bffd-ec51227e0bd9"
-                        }
-                    ],
+                    "script": [],
                     "startScript": [],
                     "updateScript": [
                         {
@@ -1137,6 +1125,13 @@
                     "width": 3,
                     "height": 1,
                     "script": [
+                        {
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "4"
+                            },
+                            "id": "c173fa73-44c1-429a-bbf9-63f3a1446ade"
+                        },
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
@@ -11027,9 +11022,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
-                                "x": 9,
-                                "y": 14,
+                                "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
+                                "x": 2,
+                                "y": 12,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -12204,8 +12199,140 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
-                    "startScript": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "This watch... I\ncan feel its power"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "694e9be8-0754-4a51-89ae-d86b490651dd"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "(Press B to freeze\nan enemy)"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "0dd30216-3cf4-42db-bc25-e667c0cf4768"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cette montre...\nJe peux utiliser\nson pouvoir"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6d409593-ab91-4aa8-8e61-553c97172662"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "(Appuyez sur B\npour geler un\nenemie)"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "af133920-6834-43b7-8644-c2824871ca81"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "4b716854-0c8d-4e8b-980c-a281fd168127"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "ee69d37b-7a34-4e7e-be39-2589a1140736"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "9",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "eb28c32c-fb76-4cff-9399-c99b6d977fe5"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "af6754b9-3004-4efa-99d3-095e5b04afd2"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -12224,6 +12351,13 @@
                     "width": 3,
                     "height": 2,
                     "script": [
+                        {
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "4"
+                            },
+                            "id": "62f1dba4-5d9a-4db9-8200-8e2e8aed883b"
+                        },
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
@@ -12357,16 +12491,6 @@
                     "y": 14,
                     "width": 2,
                     "height": 1,
-                    "script": [],
-                    "leaveScript": []
-                },
-                {
-                    "name": "",
-                    "id": "6e1bef6a-13d3-4d6b-9a55-3e8d6c36d31c",
-                    "x": 6,
-                    "y": 13,
-                    "width": 2,
-                    "height": 2,
                     "script": [],
                     "leaveScript": []
                 },
@@ -14723,7 +14847,7 @@
         },
         {
             "id": "9",
-            "name": "Variable 10"
+            "name": "HasSecondPower"
         },
         {
             "id": "10",
@@ -14760,6 +14884,10 @@
         {
             "id": "557b8f62-aec6-4d21-ad17-41c75bfd9330__L0",
             "name": "Local 0"
+        },
+        {
+            "id": "11",
+            "name": "Variable 11"
         }
     ],
     "engineFieldValues": [
@@ -14781,7 +14909,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "e702dbac-f301-4781-9d92-0827cb339dd6",
+        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
         "startX": 6,
         "startY": 14,
         "startMoveSpeed": 1,
@@ -14789,9 +14917,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1345,
-        "worldScrollY": 79,
-        "zoom": 125,
+        "worldScrollX": 3131,
+        "worldScrollY": 71,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
