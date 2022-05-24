@@ -646,6 +646,18 @@
                             "id": "dcf758e3-53f7-475f-87f5-18448bd2b788"
                         },
                         {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -1,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": false,
+                                "__collapse": true
+                            },
+                            "id": "1a6ca6db-0f57-4a4a-9ca1-7ac77e855628"
+                        },
+                        {
                             "command": "EVENT_ACTOR_MOVE_TO",
                             "args": {
                                 "actorId": "86ae4aa8-424b-4a5f-ae19-f109cec36a9f",
@@ -671,18 +683,6 @@
                                 "__collapse": true
                             },
                             "id": "4df67bc7-aef5-42c7-91e9-77f0697baa5b"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": -1,
-                                "y": 0,
-                                "moveType": "horizontal",
-                                "useCollisions": false,
-                                "__collapse": true
-                            },
-                            "id": "1a6ca6db-0f57-4a4a-9ca1-7ac77e855628"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -16469,7 +16469,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
         "startX": 8,
         "startY": 12,
         "startMoveSpeed": 1,
@@ -16477,8 +16477,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2321,
-        "worldScrollY": 213,
+        "worldScrollX": 2091,
+        "worldScrollY": 193,
         "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -16507,9 +16507,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            373,
-            217,
-            357
+            276,
+            160,
+            264
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
