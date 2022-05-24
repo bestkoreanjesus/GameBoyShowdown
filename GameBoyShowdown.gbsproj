@@ -1199,8 +1199,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "2b0c569e-4864-4e22-a3a8-9925326be31f",
-            "x": 1274.8020103441177,
-            "y": 390.92118681561305,
+            "x": 1278.8020103441165,
+            "y": 368.73936863379487,
             "actors": [],
             "triggers": [
                 {
@@ -3930,6 +3930,11 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_RESET_VARIABLES",
+                    "args": {},
+                    "id": "e892f930-7195-47ac-af63-340e769fade2"
+                },
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -14181,7 +14186,7 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -17839,9 +17844,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 791,
-        "worldScrollY": 107,
-        "zoom": 175,
+        "worldScrollX": 214,
+        "worldScrollY": 0,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
