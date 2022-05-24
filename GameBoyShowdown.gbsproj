@@ -1199,8 +1199,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "2b0c569e-4864-4e22-a3a8-9925326be31f",
-            "x": 1278.8020103441165,
-            "y": 368.73936863379487,
+            "x": 1274.8020103441163,
+            "y": 407.5965114909378,
             "actors": [],
             "triggers": [
                 {
@@ -5119,8 +5119,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "16aacbba-cad7-4716-99b3-d193460234c5",
-            "x": 1071.5048758146736,
-            "y": 395.8193358752221,
+            "x": 1077.2191615289596,
+            "y": 411.8193358752221,
             "actors": [],
             "triggers": [
                 {
@@ -7233,12 +7233,21 @@
                     "height": 2,
                     "script": [
                         {
+                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 255
+                            },
+                            "id": "87197ddf-2786-4564-97fd-9511241be1a8"
+                        },
+                        {
                             "command": "EVENT_IF_VALUE",
                             "args": {
                                 "variable": "6",
                                 "operator": ">=",
                                 "comparator": 4,
-                                "__collapseElse": false
+                                "__collapseElse": true,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -7381,6 +7390,14 @@
                                 ]
                             },
                             "id": "ae02c88d-afa4-4a86-9690-dba85ad4c705"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 15
+                            },
+                            "id": "2465da54-2808-405d-8f07-15f940a247e2"
                         }
                     ],
                     "leaveScript": []
@@ -8576,12 +8593,21 @@
                     "height": 2,
                     "script": [
                         {
+                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 255
+                            },
+                            "id": "37f2ded8-d56e-4667-8214-59b4ce90a348"
+                        },
+                        {
                             "command": "EVENT_IF_VALUE",
                             "args": {
                                 "variable": "6",
                                 "operator": ">=",
                                 "comparator": 4,
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -8724,6 +8750,14 @@
                                 ]
                             },
                             "id": "8effd8b5-83f4-4a8e-984c-810cf67a3516"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 15
+                            },
+                            "id": "7b9366b0-fae0-4dc2-85b4-e0790e3c399e"
                         }
                     ],
                     "leaveScript": []
@@ -12433,8 +12467,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "bde98dc5-6e4f-4251-a834-d8eea8f30ddf",
-            "x": 1271.9992799404306,
-            "y": 573.4285714285721,
+            "x": 1279.9992799404306,
+            "y": 620.2857142857148,
             "actors": [
                 {
                     "name": "Hourglass",
@@ -14509,8 +14543,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "27ebf9c1-fb6e-4ad2-9809-bd50d6935a40",
-            "x": 876.5714285714286,
-            "y": 390.85714285714295,
+            "x": 884.5079365079367,
+            "y": 410.41269841269843,
             "actors": [],
             "triggers": [
                 {
@@ -15078,7 +15112,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Guard_animated.png",
-            "checksum": "9fa8603b8397d2210e0832efa321f9e1f033b302",
+            "checksum": "6c3c6256cb6473fc3506fb30c198a235dd9ebe28",
             "width": 96,
             "height": 16,
             "states": [
@@ -16200,7 +16234,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "checksum": "c15e43b79852730b4b11a119de2c12aded740a31",
+            "checksum": "e1f8c768b426ec4c99db4f8f56ba18ab4fc843c3",
             "width": 96,
             "height": 16,
             "states": [
@@ -17844,9 +17878,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 214,
-        "worldScrollY": 0,
-        "zoom": 275,
+        "worldScrollX": 264,
+        "worldScrollY": 204,
+        "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
