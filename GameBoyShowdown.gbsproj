@@ -12403,14 +12403,109 @@
                     "height": 1,
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_SWITCH",
                             "args": {
-                                "text": [
-                                    "What could a key \nbe used for ..."
-                                ],
-                                "avatarId": ""
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
                             },
-                            "id": "674107c2-7ac6-4faa-9b1d-698bc8af269e"
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh a key!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "90fed363-29ad-47e8-a108-1b686851557d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Wait that's the\nkey of my master\nhouse...",
+                                                "What is it doing\nhere?"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a0c088b8-13ed-4360-8e1d-92d5b838c283"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh une clé!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6897b099-5da6-4337-be39-4becdc194803"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Attends, c'est la\nclé de la tour de\nmon maître...",
+                                                "Qu'est ce qu'elle\nfait ici?"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1f829bd7-fc47-40ce-9862-6e4cd6d17b9e"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "9194b12e-7a51-4e3f-9d7b-a375c6ed9d11"
                         }
                     ],
                     "leaveScript": []
@@ -12422,7 +12517,93 @@
                     "y": 6,
                     "width": 4,
                     "height": 2,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "One of the book\nlooks really\ninteresting but",
+                                                "it's in god damn\nfrench so I can't\nread it!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "62e5f1e7-ad72-425a-abc6-b7f78d15deab"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "L'un des livre à\nl'air très\ninteressant:",
+                                                "Rayn l'histoire\nd'un Immortel,\npar Jack"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b4fb73e5-142d-4b14-8434-76e2e2be6874"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "b810721d-a345-49fd-8d23-8a50640434e2"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
@@ -12432,27 +12613,285 @@
                     "y": 5,
                     "width": 4,
                     "height": 3,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The emblem of\na kingdom that was\nlost in war long",
+                                                "ago"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "54f20b81-2773-421c-8ab0-372bd18b6cae"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "L'emblem d'un\nroyaume  qui à été\ndécimé dans une",
+                                                "guerre il y a\nlongtemps"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4d63db3f-e62f-4525-bed8-aa106f02caec"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "008416ed-5f90-438f-9c5a-c1ab0fd974b0"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
                     "name": "",
                     "id": "6190a0c5-9b99-446a-8cec-5d6397fe1a37",
                     "x": 3,
-                    "y": 6,
+                    "y": 5,
                     "width": 2,
-                    "height": 6,
-                    "script": [],
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "My survival\ninstinct is\nscreaming to me",
+                                                "to not touch this"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "cff4a4ff-5537-4456-9a9d-ed1efa336a0f"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Mon instinc de\nsurvie me cri de\nne pas toucher à",
+                                                "ça"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "21ccda18-65a3-405b-beb2-692db3f72977"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "75582126-790f-4e79-b2fa-3af06872e2a7"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
                     "name": "",
                     "id": "1c8264f0-c2d8-4557-ba3e-232aae3facc2",
-                    "x": 5,
+                    "x": 3,
                     "y": 9,
-                    "width": 3,
+                    "width": 4,
                     "height": 3,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I don't know\nanything about\nwine but these",
+                                                "bottles looks\nrather expensive"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d5a96e19-3171-48a1-ab9a-f446fe3bc8f9"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Je ne m'y connais\npas tellement en\nvin mais ces",
+                                                "bouteilles ont\nl'air cher"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d26c91e9-c82d-49e1-aba7-c28dc58491e6"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "82f0362a-17b5-439b-85ac-3c9c389d2923"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
@@ -12462,7 +12901,91 @@
                     "y": 6,
                     "width": 1,
                     "height": 2,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "To be or not to\nbe..."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d1a9b741-d777-4579-af10-18b3ea8b0c64"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Être ou ne pas\nêtre..."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "48a7f8dc-5c45-4764-ac77-3eedf31804b8"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "f9bafd38-3b82-413d-acf0-b64845636589"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
@@ -12472,7 +12995,91 @@
                     "y": 13,
                     "width": 4,
                     "height": 2,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Lots of books\nof no particular\ninterest"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2c202712-fd2d-4303-b33d-aefd422cd8b2"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Plein de livres\nsans attrait aucun"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3c00f0c1-026a-40cd-b395-49b656114454"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "464ed0c1-1940-4da5-87bb-c25d4dfe14ad"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
@@ -12482,7 +13089,91 @@
                     "y": 13,
                     "width": 4,
                     "height": 2,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Books books books\nand lot of books"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "900741a9-587d-4bc1-8648-857149ea7f5d"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Des livres, des\nlivres et encore\ndes livres"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "59106e52-9f22-40f2-9cc0-a8820ee01f55"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "1afc69f8-6217-41a4-a525-2ad23abda15f"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
@@ -12494,14 +13185,88 @@
                     "height": 2,
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_SWITCH",
                             "args": {
-                                "text": [
-                                    "The master does \nnot like to clean \nvery much"
-                                ],
-                                "avatarId": ""
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
                             },
-                            "id": "80247985-7c35-4da2-8cd8-9b87d43484e7"
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "This place hasn't\nbeen cleaned for\na while"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1d48ba6c-fc3f-4190-9b47-654f50c7695f"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cette endroit\nn'a pas été\nnettoyé depuis",
+                                                "un moment"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b054a420-b21d-43dc-9821-0eeb4969f66a"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "2a9e9a57-e222-4896-a367-0e245f888ee9"
                         }
                     ],
                     "leaveScript": []
@@ -12519,11 +13284,95 @@
                 {
                     "name": "",
                     "id": "578f8140-35aa-4bfc-ace3-b398e73cafc8",
-                    "x": 8,
+                    "x": 7,
                     "y": 10,
-                    "width": 1,
+                    "width": 2,
                     "height": 2,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"Eau de toilette\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e566de45-d845-4bd5-9047-e19ca0f9404a"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"Eau de toilette\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "fa2dd0eb-609e-428e-8cf3-3ef3f7caed8e"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "1dc57eda-b95b-496e-b028-97fcb13f7a3c"
+                        }
+                    ],
                     "leaveScript": []
                 }
             ],
@@ -13286,6 +14135,106 @@
             "numTiles": 8,
             "canvasWidth": 16,
             "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "2b7d7d7a-301b-4abb-88d1-ba24d075cd44",
+            "name": "Star",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Star.png",
+            "checksum": "7f175eecbabce1dec7a574ef206ceea16bef746b",
+            "width": 16,
+            "height": 8,
+            "states": [
+                {
+                    "id": "0c2baebf-bf95-42bf-a957-0cf3f9c47022",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "2e8501f6-3580-4cac-a32a-fcfca5695274",
+                            "frames": [
+                                {
+                                    "id": "5cacb999-ca49-42e2-bd8b-2742b3d29d72",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "998c97b0-ee05-4db3-b040-21a514336ed5",
+                            "frames": [
+                                {
+                                    "id": "02c75451-c25d-4a9d-8c33-e739866dc81e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "575404b6-643a-4bc9-8d4e-ec6077847bbe",
+                            "frames": [
+                                {
+                                    "id": "7c6e0fdc-1b14-4e9d-9391-ae283d4cd4ae",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8d5b4a61-b8d4-4d80-a668-3a69a9f7859a",
+                            "frames": [
+                                {
+                                    "id": "7ba62a9f-e92a-43f3-8a88-b66e1b76d538",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4a5fd5c2-a46b-4d6b-9175-816025d67285",
+                            "frames": [
+                                {
+                                    "id": "a1212bce-322b-49df-817b-60945903b8a3",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8eae98f3-4d8d-49dd-85e9-eccad4558a66",
+                            "frames": [
+                                {
+                                    "id": "c85a3071-1b4d-45e9-8a22-04b63818599a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "91591ed1-3132-43de-9aaf-42c505eba302",
+                            "frames": [
+                                {
+                                    "id": "c9c5eb88-bb94-438a-a9e1-6a75737bdf79",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5ec1136f-aae9-4ed8-a196-3ce5b154568e",
+                            "frames": [
+                                {
+                                    "id": "343cc61a-06cf-4f10-9af1-842eedb21309",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
@@ -14845,6 +15794,10 @@
             "name": "PlayerLifesBase"
         },
         {
+            "id": "11",
+            "name": "Variable 11"
+        },
+        {
             "id": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99__L0",
             "name": "Local 0"
         },
@@ -14875,10 +15828,6 @@
         {
             "id": "557b8f62-aec6-4d21-ad17-41c75bfd9330__L0",
             "name": "Local 0"
-        },
-        {
-            "id": "11",
-            "name": "Variable 11"
         }
     ],
     "engineFieldValues": [
@@ -14908,9 +15857,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3131,
-        "worldScrollY": 71,
-        "zoom": 275,
+        "worldScrollX": 1391,
+        "worldScrollY": 0,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -14938,9 +15887,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            204,
-            177,
-            567
+            203,
+            176,
+            569
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
