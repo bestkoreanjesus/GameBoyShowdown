@@ -2995,11 +2995,96 @@
                     "id": "ad8dfca4-f029-4aad-9d1b-9bb8e68fd1f7"
                 },
                 {
+                    "command": "EVENT_SWITCH",
+                    "args": {
+                        "variable": "5",
+                        "choices": 2,
+                        "__collapseCase0": false,
+                        "value0": 0,
+                        "__collapseCase1": false,
+                        "value1": 1,
+                        "__collapseCase2": false,
+                        "value2": 3,
+                        "__collapseCase3": false,
+                        "value3": 4,
+                        "__collapseCase4": false,
+                        "value4": 5,
+                        "__collapseCase5": false,
+                        "value5": 6,
+                        "__collapseCase6": false,
+                        "value6": 7,
+                        "__collapseCase7": false,
+                        "value7": 8,
+                        "__collapseCase8": false,
+                        "value8": 9,
+                        "__collapseCase9": false,
+                        "value9": 10,
+                        "__collapseCase10": false,
+                        "value10": 11,
+                        "__collapseCase11": false,
+                        "value11": 12,
+                        "__collapseCase12": false,
+                        "value12": 13,
+                        "__collapseCase13": false,
+                        "value13": 14,
+                        "__collapseCase14": false,
+                        "value14": 15,
+                        "__collapseCase15": false,
+                        "value15": 16,
+                        "__collapseElse": false,
+                        "__disableElse": true
+                    },
+                    "children": {
+                        "true0": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "(Move with left\nand right, avoid\nthe enemy shoots",
+                                        "by jumping with A)"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "770dcdfb-fbd2-475b-8330-02d373cdcf03"
+                            }
+                        ],
+                        "true1": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "(Déplacez vous\navec droite et\ngauche, évitez les",
+                                        "tirs ennemies en\nsautant avec A)"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "c9d5fc01-7737-47fe-93bd-1641bdf88f34"
+                            }
+                        ],
+                        "true2": [],
+                        "true3": [],
+                        "true4": [],
+                        "true5": [],
+                        "true6": [],
+                        "true7": [],
+                        "true8": [],
+                        "true9": [],
+                        "true10": [],
+                        "true11": [],
+                        "true12": [],
+                        "true13": [],
+                        "true14": [],
+                        "true15": [],
+                        "false": []
+                    },
+                    "id": "ed9dbca4-4f16-4e22-adeb-82e239db67ad"
+                },
+                {
                     "command": "EVENT_SET_TIMER_SCRIPT",
                     "args": {
                         "duration": 20,
                         "__scriptTabs": "end",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "script": [
@@ -11148,7 +11233,7 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
+                                "sceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
                                 "x": 2,
                                 "y": 12,
                                 "direction": "",
@@ -16477,8 +16562,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2091,
-        "worldScrollY": 193,
+        "worldScrollX": 2773,
+        "worldScrollY": 359,
         "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
