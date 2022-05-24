@@ -647,6 +647,35 @@
                         }
                     ],
                     "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "bab923a0-1da7-473c-afc2-7e0359be23cf",
+                    "x": 18,
+                    "y": 11,
+                    "width": 1,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "4"
+                            },
+                            "id": "dcdf7a61-6b06-49c6-9225-37451ba4b557"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
+                                "x": 9,
+                                "y": 14,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "1bf368f4-61f5-4863-b862-3c796aee9d15"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -1142,6 +1171,35 @@
                                 "fadeSpeed": "2"
                             },
                             "id": "6f8a81fc-486e-4f27-b534-137748d6bbfb"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "85d43f8c-4b47-4ae8-b24b-f2d7c8f7f372",
+                    "x": 18,
+                    "y": 11,
+                    "width": 1,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "4"
+                            },
+                            "id": "16e1ae26-d33d-4748-985a-fb034b6aaf57"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
+                                "x": 9,
+                                "y": 14,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "1184a838-073b-449c-930e-de2d1c633fc9"
                         }
                     ],
                     "leaveScript": []
@@ -3200,9 +3258,9 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "c1335428-c5d6-48ca-89fa-e5916d99bc8b",
+                                                "sceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
                                                 "x": 9,
-                                                "y": 7,
+                                                "y": 14,
                                                 "direction": "",
                                                 "fadeSpeed": "2"
                                             },
@@ -3279,7 +3337,8 @@
                                     "value14": 15,
                                     "__collapseCase15": false,
                                     "value15": 16,
-                                    "__collapseElse": false
+                                    "__collapseElse": false,
+                                    "__disableElse": true
                                 },
                                 "children": {
                                     "true0": [
@@ -15867,9 +15926,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 989,
-        "worldScrollY": 0,
-        "zoom": 125,
+        "worldScrollX": 2052,
+        "worldScrollY": 143,
+        "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
